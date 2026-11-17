@@ -8,6 +8,7 @@ Otevřené integrace pro větrací jednotky Ambientika — Home Assistant, MQTT,
 |---|---|
 | [ambientika-mqtt-bridge](https://github.com/ambientika-eu/ambientika-mqtt-bridge) | Most MQTT přes server Ambientika — pro Home Assistant, ioBroker, openHAB, Loxone, Node-RED. **Doporučeno pro běžný provoz.** |
 | [ambientika-ha-addon](https://github.com/ambientika-eu/ambientika-ha-addon) | Tentýž most jako doplněk pro Home Assistant OS |
+| [HomeAssistant-integration-for-Ambientika](https://github.com/ambientika-eu/HomeAssistant-integration-for-Ambientika) | Integrace „Ambientika for Home Assistant“, instalace přes HACS |
 | [ambientika-local-app](https://github.com/ambientika-eu/ambientika-local-app) | Vlastní rozhraní (PWA) v domácí síti. Volitelný lokální režim: nahrazuje **most** lokálním, který komunikuje s jednotkami přímo. |
 | [ambientika-local-standalone](https://github.com/ambientika-eu/ambientika-local-standalone) | Nahrazuje **server**: aplikace Ambientika běží beze změny proti lokální službě v domácí síti |
 | [ambientika-rs485-boost-button](https://github.com/ambientika-eu/ambientika-rs485-boost-button) | Tlačítkový vstup přes RS485 pro ADVANCED+ / ADVANCED B+ |

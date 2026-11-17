@@ -8,6 +8,7 @@ Integrazioni aperte per le unità di ventilazione Ambientika — Home Assistant,
 |---|---|
 | [ambientika-mqtt-bridge](https://github.com/ambientika-eu/ambientika-mqtt-bridge) | Bridge MQTT tramite il server Ambientika — per Home Assistant, ioBroker, openHAB, Loxone, Node-RED. **Consigliato per l'esercizio ordinario.** |
 | [ambientika-ha-addon](https://github.com/ambientika-eu/ambientika-ha-addon) | Lo stesso bridge come add-on per Home Assistant OS |
+| [HomeAssistant-integration-for-Ambientika](https://github.com/ambientika-eu/HomeAssistant-integration-for-Ambientika) | Integrazione “Ambientika for Home Assistant”, installazione tramite HACS |
 | [ambientika-local-app](https://github.com/ambientika-eu/ambientika-local-app) | Interfaccia propria (PWA) nella rete domestica. Modalità locale opzionale: sostituisce **il bridge** con uno locale che comunica direttamente con le unità. |
 | [ambientika-local-standalone](https://github.com/ambientika-eu/ambientika-local-standalone) | Sostituisce **il server**: l'app Ambientika funziona senza modifiche con un servizio locale nella rete domestica |
 | [ambientika-rs485-boost-button](https://github.com/ambientika-eu/ambientika-rs485-boost-button) | Ingresso a pulsante via RS485 per ADVANCED+ / ADVANCED B+ |

@@ -8,6 +8,7 @@
 |---|---|
 | [ambientika-mqtt-bridge](https://github.com/ambientika-eu/ambientika-mqtt-bridge) | MQTT-brygga via Ambientika-servern — för Home Assistant, ioBroker, openHAB, Loxone, Node-RED. **Rekommenderas för normal drift.** |
 | [ambientika-ha-addon](https://github.com/ambientika-eu/ambientika-ha-addon) | Samma brygga som tillägg för Home Assistant OS |
+| [HomeAssistant-integration-for-Ambientika](https://github.com/ambientika-eu/HomeAssistant-integration-for-Ambientika) | Integrationen ”Ambientika for Home Assistant”, installeras via HACS |
 | [ambientika-local-app](https://github.com/ambientika-eu/ambientika-local-app) | Eget gränssnitt (PWA) i hemnätet. Valfritt lokalt läge: ersätter **bryggan** med en lokal som kommunicerar direkt med aggregaten. |
 | [ambientika-local-standalone](https://github.com/ambientika-eu/ambientika-local-standalone) | Ersätter **servern**: Ambientika-appen körs oförändrad mot en lokal tjänst i hemnätet |
 | [ambientika-rs485-boost-button](https://github.com/ambientika-eu/ambientika-rs485-boost-button) | Tryckknappsingång via RS485 för ADVANCED+ / ADVANCED B+ |

@@ -2,13 +2,17 @@
 
 ## Ambientika / Südwind GmbH
 
-Otevřené integrace pro větrací jednotky Ambientika — Home Assistant, MQTT, KNX a lokální provoz.
+Otevřené integrace pro větrací jednotky Ambientika — Home Assistant, ioBroker, Matter, Homey, ESPHome, MQTT, KNX a lokální provoz.
 
 | Repozitář | Účel |
 |---|---|
 | [ambientika-mqtt-bridge](https://github.com/ambientika-eu/ambientika-mqtt-bridge) | Most MQTT přes server Ambientika — pro Home Assistant, ioBroker, openHAB, Loxone, Node-RED. **Doporučeno pro běžný provoz.** |
 | [ambientika-ha-addon](https://github.com/ambientika-eu/ambientika-ha-addon) | Tentýž most jako doplněk pro Home Assistant OS |
-| [HomeAssistant-integration-for-Ambientika](https://github.com/ambientika-eu/HomeAssistant-integration-for-Ambientika) | Integrace „Ambientika for Home Assistant“, instalace přes HACS |
+| [HomeAssistant-integration-for-Ambientika](https://github.com/ambientika-eu/HomeAssistant-integration-for-Ambientika) | Integrace „Ambientika for Home Assistant“ — k nalezení vyhledáním v HACS a v Marketplace Home Assistantu |
+| [ioBroker.ambientika](https://github.com/ambientika-eu/ioBroker.ambientika) | Adaptér pro ioBroker (přes server Ambientika) |
+| [matterbridge-ambientika](https://github.com/ambientika-eu/matterbridge-ambientika) | Plugin pro Matterbridge — zpřístupní jednotky přes Matter v Apple Home, Google Home, Amazon Alexa, SmartThings |
+| [homey-ambientika](https://github.com/ambientika-eu/homey-ambientika) | Aplikace pro Homey Pro (SMART, OFFICE) |
+| [ESPHome-RS485-gateway-for-Ambientika](https://github.com/ambientika-eu/ESPHome-RS485-gateway-for-Ambientika) | Lokální ovládání ADVANCED+ / ADVANCED B+ přes RS485 s ESPHome (M5Stack Atom Lite), bez cloudu |
 | [ambientika-local-app](https://github.com/ambientika-eu/ambientika-local-app) | Vlastní rozhraní (PWA) v domácí síti. Volitelný lokální režim: nahrazuje **most** lokálním, který komunikuje s jednotkami přímo. |
 | [ambientika-local-standalone](https://github.com/ambientika-eu/ambientika-local-standalone) | Nahrazuje **server**: aplikace Ambientika běží beze změny proti lokální službě v domácí síti |
 | [ambientika-rs485-boost-button](https://github.com/ambientika-eu/ambientika-rs485-boost-button) | Tlačítkový vstup přes RS485 pro ADVANCED+ / ADVANCED B+ |

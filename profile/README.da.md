@@ -2,13 +2,17 @@
 
 ## Ambientika / Südwind GmbH
 
-Åbne integrationer til Ambientika ventilationsaggregater — Home Assistant, MQTT, KNX og lokal drift.
+Åbne integrationer til Ambientika ventilationsaggregater — Home Assistant, ioBroker, Matter, Homey, ESPHome, MQTT, KNX og lokal drift.
 
 | Repository | Formål |
 |---|---|
 | [ambientika-mqtt-bridge](https://github.com/ambientika-eu/ambientika-mqtt-bridge) | MQTT-bridge via Ambientika-serveren — til Home Assistant, ioBroker, openHAB, Loxone, Node-RED. **Anbefales til normal drift.** |
 | [ambientika-ha-addon](https://github.com/ambientika-eu/ambientika-ha-addon) | Samme bridge som add-on til Home Assistant OS |
-| [HomeAssistant-integration-for-Ambientika](https://github.com/ambientika-eu/HomeAssistant-integration-for-Ambientika) | Integrationen “Ambientika for Home Assistant”, installeres via HACS |
+| [HomeAssistant-integration-for-Ambientika](https://github.com/ambientika-eu/HomeAssistant-integration-for-Ambientika) | Integrationen “Ambientika for Home Assistant” — findes via søgning i HACS og i Home Assistants Marketplace |
+| [ioBroker.ambientika](https://github.com/ambientika-eu/ioBroker.ambientika) | Adapter til ioBroker (via Ambientika-serveren) |
+| [matterbridge-ambientika](https://github.com/ambientika-eu/matterbridge-ambientika) | Plugin til Matterbridge — gør aggregaterne tilgængelige via Matter i Apple Home, Google Home, Amazon Alexa, SmartThings |
+| [homey-ambientika](https://github.com/ambientika-eu/homey-ambientika) | App til Homey Pro (SMART, OFFICE) |
+| [ESPHome-RS485-gateway-for-Ambientika](https://github.com/ambientika-eu/ESPHome-RS485-gateway-for-Ambientika) | Lokal styring af ADVANCED+ / ADVANCED B+ via RS485 med ESPHome (M5Stack Atom Lite), uden cloud |
 | [ambientika-local-app](https://github.com/ambientika-eu/ambientika-local-app) | Egen brugerflade (PWA) i hjemmenetværket. Valgfri lokal tilstand: erstatter **bridgen** med en lokal, der taler direkte med aggregaterne. |
 | [ambientika-local-standalone](https://github.com/ambientika-eu/ambientika-local-standalone) | Erstatter **serveren**: Ambientika-appen kører uændret mod en lokal tjeneste i hjemmenetværket |
 | [ambientika-rs485-boost-button](https://github.com/ambientika-eu/ambientika-rs485-boost-button) | Trykknapindgang via RS485 til ADVANCED+ / ADVANCED B+ |
